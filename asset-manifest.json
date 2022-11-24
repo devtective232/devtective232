@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90f438e1.css",
+    "main.js": "/static/js/main.fd1d2a60.js",
+    "static/js/787.61c5a43d.chunk.js": "/static/js/787.61c5a43d.chunk.js",
+    "static/media/Juliomoros.png": "/static/media/Juliomoros.c252c224cde9aea1d564.png",
+    "static/media/logo.svg": "/static/media/logo.789486a59215e498bbad0b52f3489491.svg",
+    "index.html": "/index.html",
+    "main.90f438e1.css.map": "/static/css/main.90f438e1.css.map",
+    "main.fd1d2a60.js.map": "/static/js/main.fd1d2a60.js.map",
+    "787.61c5a43d.chunk.js.map": "/static/js/787.61c5a43d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90f438e1.css",
+    "static/js/main.fd1d2a60.js"
+  ]
+}
