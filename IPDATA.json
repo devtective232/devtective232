@@ -1,0 +1,36 @@
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Conexi¢n de  rea local 3:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de LAN inal mbrica Conexi¢n de red inal mbrica:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::b1bd:1d8e:1aca:5963%11
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.0.110
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+
+Adaptador de t£nel isatap.{E6B2C4BB-A7DA-48A3-BAF4-B5D0D9B31318}:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de t£nel Conexi¢n de  rea local* 11:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de t£nel isatap.{904EB3CC-86B5-4D32-8067-3D98A4C5A929}:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de t£nel isatap.{E65F202A-2A9E-46E5-89DE-2E5F00898831}:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
