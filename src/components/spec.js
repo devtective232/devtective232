@@ -19,7 +19,7 @@ function Todo (args) {
           {args.texto}
         </h2>
         <div className='actions'>
-        <button className='btn'onClick={borralo}>BOTON DE PAGO</button>
+        <button className='btn'onClick={borralo}>SEE MY CV</button>
         </div>
         { A && <Modal onCancel={cancelalo} onConfirm={confirmalo}/> }
         { A && <Backdrop onCancel={cancelalo} /> }

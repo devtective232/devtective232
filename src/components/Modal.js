@@ -1,3 +1,6 @@
+import MM from '../images/MM.png';
+import WC from '../images/WC.png';
+
 function Modal (args) {
     function confirmar() {
         args.onConfirm();
@@ -7,9 +10,24 @@ function Modal (args) {
     }
     return (
         <div className="modal">
-            <h2>Confirme Su Pago</h2>
-            <button className="btn btn--alt" onClick={cancelar}>No Pagar</button>
-            <button className="btn" onClick={confirmar}>Pagar</button>
+            <h3>Julio Moros can not accept payments in fiat</h3>
+            <h5>In order to see his CV, please, engage your web3 wallet</h5>
+            <div className="MM">
+                <button className="btn btn--alt" onClick={cancelar}>
+                    <span className='hormiga'>
+                        <img className="wallet" src={MM} width="30" alt="MM wallet"/>
+                    </span>
+                    <span className="walletext">Meta-Mask</span>
+                </button>
+            </div>
+            <div className="MM">
+                <button className="btn2" onClick={confirmar}>
+                    <span>
+                        <img className="wallet" src={WC} width="30" alt="WC wallet"/>
+                    </span>
+                 <span className="walletext">Wallet-Connect</span> 
+                </button>
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@
   "name": "web_one",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://devtective232.github.io/devtective232",
+  "homepage": "http://devtective232.github.io/devtective232",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-transition-group": "^4.4.5"
   }
 }

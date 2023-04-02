@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn-wallet {
+            width: 294px;
+            height: 52px!important;
+            box-shadow: 0 10px 15px rgb(52 52 52 / 10%);
+            border-radius: 10px;
+            background: #e1f0e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="v-dialog v-dialog--active v-dialog--persistent" style="transform-origin: center center; width: 414px;">
+        <div class="modal-connect-wallet py-2 v-card v-sheet theme--light">
+            <div class="row mb-4 ma-0 d-flex justify-center mt-8">
+                <h1 class="h1-heading text-primary">🌴 Bienvenido a Tropykus🌴</h1>
+            </div>
+            <div class="row mb-2 ma-0 d-flex justify-center mt-6">
+                <h2 class="h2-heading text-primary">Inicia Sesión</h2>
+            </div>
+            <button type="button" class="v-icon notranslate btn-close-dialog v-icon--link mdi mdi-close theme--light"></button>
+            <div class="d-flex justify-center mb-3">
+                <a href="/auth" class="btn-wallet d-flex justify-start v-btn v-btn--router v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <span class="ml-1 mr-4">
+                            <i aria-hidden="true" class="v-icon notranslate mt-1 mr-1 mdi mdi-google theme--light" style="font-size: 20px; color: rgb(66, 103, 178); caret-color: rgb(66, 103, 178);"></i>
+                            <i aria-hidden="true" class="v-icon notranslate mr-1 mdi mdi-apple theme--light" style="color: rgb(29, 161, 242); caret-color: rgb(29, 161, 242);"></i>
+                            <i aria-hidden="true" class="v-icon notranslate mt-1 mdi mdi-email theme--light" style="font-size: 20px;"></i>
+                        </span>
+                        <span class="b2-secondary text-info mr-1">Google, Apple, Email</span>
+                    </span>
+                </a>
+            </div>
+            <div class="d-flex justify-center mb-3 is-wallet-connect">
+                <button type="button" class="btn-wallet d-flex justify-start v-btn v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <img src="/img/wallet-connect.12c0b3d8.svg" alt="Wallet connect icon" class="ml-7 mr-9">
+                            <span class="b2-secondary text-info">Billetera móvil</span>
+                    </span>
+                </button>
+            </div>
+            <div class="d-flex justify-center mb-3">
+                <button type="button" class="btn-wallet d-flex justify-start v-btn v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <img src="/img/metamask.d2e8ce55.svg" alt="MetaMask icon" class="ml-7 mr-9">
+                        <div class="b2-secondary text-info">Metamask</div>
+                    </span>
+                </button>
+            </div>
+            <div class="d-flex justify-center mb-3">
+                <button type="button" class="btn-wallet d-flex justify-start v-btn v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <img src="/img/liquality.8c54484a.svg" alt="Liquality icon" class="ml-7 mr-9">
+                        <div class="b2-secondary text-info">Liquality</div>
+                    </span>
+                </button>
+            </div>
+            <div class="d-flex justify-center mb-3">
+                <button type="button" class="btn-wallet d-flex justify-start v-btn v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <img src="/img/ledger.672181a5.svg" alt="Ledger icon" class="ml-7 mr-9">
+                        <span class="b2-secondary text-info">Ledger</span>
+                    </span>
+                </button>
+            </div>
+            <div class="d-flex justify-center mb-3">
+                <button type="button" class="btn-wallet d-flex justify-start v-btn v-btn--text theme--light v-size--default">
+                    <span class="v-btn__content">
+                        <img src="/img/trezor.7e489172.svg" alt="Ledger icon" class="ml-7 mr-9">
+                        <span class="b2-secondary text-info">Trezor</span>
+                    </span>
+                </button>
+            </div>
+            <div class="d-flex justify-center mt-5">
+                <p class="p1-descriptions text-center mr-1 text-primary"> ¿No tienes billetera? 
+                    <a href="https://metamask.io/" target="_blank" rel="noopener" class="p1-descriptions text-primary ml-1"> Descárgala </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

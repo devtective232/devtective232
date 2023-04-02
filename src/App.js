@@ -1,31 +1,27 @@
-import logo from './logo.svg';
-import devTective from './Juliomoros.png';
-import Todo from './components/todo';
+import devTective from './images/Juliomoros.png';
+import Spec from './components/spec';
 import './App.css';
+import { useState } from 'react';
+import Devtective from './components/devt';
 
 function App() {
+  const [onDetective, setDetective] = useState(false);
+  let clickHandler = () => {
+    setDetective(!onDetective);
+  };
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          <h1>Por Hacer</h1>
-          <Todo texto='Aprender React'/>
-          <Todo texto='Dominar React'/>
-          <Todo texto='Proyecto React'/>
+          <h1 className='first'>Julio Moros</h1>
+          <img src={devTective} width="120" height="120" className="Dev-tective" alt="jjmr" />
+          <div onClick={clickHandler}>
+            { onDetective && <h6> <Devtective /> Algo mas</h6>}
+            {!onDetective && <h1 className='second'>Blockchain Detective</h1>}
+          </div>
+          <h1 className='third'>for DeFi</h1>
+          <Spec texto='Solidity; Web3.js; NodeJS; Python'/>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src={devTective} width="150" height="150" className="Dev-tective" alt="jjmr" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

@@ -2,22 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .Dev-tective {
   border-radius: 80%;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-  .Dev-tective {
-    animation: Dev-tective-spin infinite 20s linear;
-  }
+  margin-bottom: 0px;
 }
 
 .App-header {
@@ -35,20 +22,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes Dev-tective-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }  
+.card2 {
+  background-color: #3c4e73;
+  border: 1px solid #333333;
+  border-radius: 17px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 60rem;
+  margin: auto;
+  white-space: pre-line;
 }
