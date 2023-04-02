@@ -10,6 +10,7 @@
 
 # production
 /build
+/script/*.json
 
 # misc
 .DS_Store
