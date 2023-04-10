@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/devtective232/static/css/main.90f438e1.css",
-    "main.js": "/devtective232/static/js/main.c43135d6.js",
-    "static/js/787.61c5a43d.chunk.js": "/devtective232/static/js/787.61c5a43d.chunk.js",
+    "main.css": "/devtective232/static/css/main.1eca2216.css",
+    "main.js": "/devtective232/static/js/main.c97073fe.js",
     "static/media/Juliomoros.png": "/devtective232/static/media/Juliomoros.c252c224cde9aea1d564.png",
-    "static/media/logo.svg": "/devtective232/static/media/logo.789486a59215e498bbad0b52f3489491.svg",
+    "static/media/MM.png": "/devtective232/static/media/MM.5bf1b8a1088338aa35fb.png",
+    "static/media/WC.png": "/devtective232/static/media/WC.9f823c8845fe5055a070.png",
     "index.html": "/devtective232/index.html",
-    "main.90f438e1.css.map": "/devtective232/static/css/main.90f438e1.css.map",
-    "main.c43135d6.js.map": "/devtective232/static/js/main.c43135d6.js.map",
-    "787.61c5a43d.chunk.js.map": "/devtective232/static/js/787.61c5a43d.chunk.js.map"
+    "main.1eca2216.css.map": "/devtective232/static/css/main.1eca2216.css.map",
+    "main.c97073fe.js.map": "/devtective232/static/js/main.c97073fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.90f438e1.css",
-    "static/js/main.c43135d6.js"
+    "static/css/main.1eca2216.css",
+    "static/js/main.c97073fe.js"
   ]
 }
