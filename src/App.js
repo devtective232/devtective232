@@ -20,7 +20,7 @@ function App() {
             {!onDetective && <h1 className='second'>Blockchain Detective</h1>}
           </div>
           <h1 className='third'>for DeFi</h1>
-          <Spec texto='Solidity; Web3.js; NodeJS; Python'/>
+          <Spec texto='{Solidity, Web3, NodeJS, Python}'/>
         </div>
       </header>
     </div>

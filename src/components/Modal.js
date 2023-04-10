@@ -10,7 +10,7 @@ function Modal (args) {
     }
     return (
         <div className="modal">
-            <h3>Julio Moros can not accept payments in fiat</h3>
+            <h3>Julio Moros can only accept payments in crypto</h3>
             <h5>In order to see his CV, please, engage your web3 wallet</h5>
             <div className="MM">
                 <button className="btn btn--alt" onClick={cancelar}>
